@@ -19,3 +19,4 @@ describe('Navigation', () => {
         CoursesPage.isOpen();
     })
 });
+
