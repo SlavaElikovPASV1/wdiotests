@@ -1,0 +1,75 @@
+{
+  "uid" : "5d0cbc03419aa4a6",
+  "name" : "submit button is disabled if login and password are absent",
+  "fullName" : "Auth.submit button is disabled if login and password are absent",
+  "historyId" : "ebb7a2a9298494bfe5175ab3f894dd34",
+  "time" : {
+    "start" : 1619387195992,
+    "stop" : 1619387195992,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit button is disabled if login and password are absent"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc39aa02665a39f5",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619386767717,
+        "stop" : 1619386767717,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "831cadceab06762",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619385462449,
+        "stop" : 1619385462449,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "648bb420d4fb3ed8",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619385224804,
+        "stop" : 1619385224804,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d0cbc03419aa4a6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "11b2f7a0c373b9d",
+  "name" : "\"before all\" hook for Navigation",
+  "fullName" : "Navigation.\"before all\" hook for Navigation",
+  "historyId" : "f18bf226c5984455c294bcb8a15f8013",
+  "time" : {
+    "start" : 1619387201692,
+    "stop" : 1619387217447,
+    "duration" : 15755
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found\n                    at LoginPage.setLogin (/Users/ihorvorobiov/WebstormProjects/dimapasv/test/pageobjects/login.page.js:26:28)\n                    at Browser.<anonymous> (/Users/ihorvorobiov/WebstormProjects/dimapasv/config/hooks.conf.js:8:23)\n                    at Browser.login (/Users/ihorvorobiov/WebstormProjects/dimapasv/node_modules/@wdio/utils/build/monad.js:149:33)\n                    at Context.<anonymous> (/Users/ihorvorobiov/WebstormProjects/dimapasv/test/specs/navigation.spec.js:6:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Navigation"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Navigation"
+  }, {
+    "name" : "package",
+    "value" : "Navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3737d5a9d27c66",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+      "time" : {
+        "start" : 1619386775898,
+        "stop" : 1619386792417,
+        "duration" : 16519
+      }
+    }, {
+      "uid" : "1c1b79fbe40863ae",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+      "time" : {
+        "start" : 1619385471566,
+        "stop" : 1619385488606,
+        "duration" : 17040
+      }
+    }, {
+      "uid" : "f486d61b7943d6f0",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+      "time" : {
+        "start" : 1619385232467,
+        "stop" : 1619385248661,
+        "duration" : 16194
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "11b2f7a0c373b9d.json",
+  "parameterValues" : [ "Chrome-90.0.4430.85" ]
+}

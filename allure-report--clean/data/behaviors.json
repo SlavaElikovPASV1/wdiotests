@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "login input is required",
+    "uid" : "aca89304d09f66ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1619387195992,
+      "stop" : 1619387195992,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "user logs in with valid data",
+    "uid" : "25b183304e9a47e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1619387195992,
+      "stop" : 1619387195992,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "fails if invalid data provided",
+    "uid" : "79b47ad53113df84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1619387195992,
+      "stop" : 1619387195992,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "submit button is disabled if login and password are absent",
+    "uid" : "5d0cbc03419aa4a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1619387195992,
+      "stop" : 1619387195992,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"before all\" hook for Navigation",
+    "uid" : "11b2f7a0c373b9d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1619387201692,
+      "stop" : 1619387217447,
+      "duration" : 15755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-90.0.4430.85" ]
+  } ]
+}

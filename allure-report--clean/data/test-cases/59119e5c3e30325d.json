@@ -1,0 +1,46 @@
+{
+  "uid" : "59119e5c3e30325d",
+  "name" : "user logs in with valid data",
+  "fullName" : "Auth.user logs in with valid data",
+  "historyId" : "a97d7a367345fe5da2bd784b0b1b58fe",
+  "time" : {
+    "start" : 1619385462447,
+    "stop" : 1619385462448,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "user logs in with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59119e5c3e30325d.json",
+  "parameterValues" : [ ]
+}

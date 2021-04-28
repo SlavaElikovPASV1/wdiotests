@@ -1,0 +1,46 @@
+{
+  "uid" : "7afa7ced691cce9",
+  "name" : "login input is required",
+  "fullName" : "Auth.login input is required",
+  "historyId" : "28b2d5d538fc421f0abe720f908d7db8",
+  "time" : {
+    "start" : 1619385462449,
+    "stop" : 1619385462449,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "login input is required"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7afa7ced691cce9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "25b183304e9a47e",
+  "name" : "user logs in with valid data",
+  "fullName" : "Auth.user logs in with valid data",
+  "historyId" : "a97d7a367345fe5da2bd784b0b1b58fe",
+  "time" : {
+    "start" : 1619387195992,
+    "stop" : 1619387195992,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "user logs in with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e3e3b1bbf8429d4",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619386767715,
+        "stop" : 1619386767716,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "59119e5c3e30325d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619385462447,
+        "stop" : 1619385462448,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d1099e7dae3ef906",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619385224804,
+        "stop" : 1619385224804,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25b183304e9a47e.json",
+  "parameterValues" : [ ]
+}

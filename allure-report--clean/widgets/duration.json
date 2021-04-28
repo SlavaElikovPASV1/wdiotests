@@ -1,0 +1,51 @@
+[ {
+  "uid" : "aca89304d09f66ed",
+  "name" : "login input is required",
+  "time" : {
+    "start" : 1619387195992,
+    "stop" : 1619387195992,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "25b183304e9a47e",
+  "name" : "user logs in with valid data",
+  "time" : {
+    "start" : 1619387195992,
+    "stop" : 1619387195992,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "79b47ad53113df84",
+  "name" : "fails if invalid data provided",
+  "time" : {
+    "start" : 1619387195992,
+    "stop" : 1619387195992,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5d0cbc03419aa4a6",
+  "name" : "submit button is disabled if login and password are absent",
+  "time" : {
+    "start" : 1619387195992,
+    "stop" : 1619387195992,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "11b2f7a0c373b9d",
+  "name" : "\"before all\" hook for Navigation",
+  "time" : {
+    "start" : 1619387201692,
+    "stop" : 1619387217447,
+    "duration" : 15755
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

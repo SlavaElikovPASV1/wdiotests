@@ -3,6 +3,7 @@ module.exports = {
     specs: [
         './test/specs/**/*.js'
     ],
+
     exclude: [
 
  ],
@@ -18,7 +19,10 @@ module.exports = {
     baseUrl: 'https://localcoding.us',
 
     framework: 'mocha',
-    reporters: ['spec'],
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true
+    }]],
     mochaOpts: {
         // Babel setup
         require: ['@babel/register'],

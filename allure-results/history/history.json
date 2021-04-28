@@ -1,0 +1,102 @@
+{
+  "a97d7a367345fe5da2bd784b0b1b58fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25b183304e9a47e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ebb7a2a9298494bfe5175ab3f894dd34" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d0cbc03419aa4a6",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b7ee419226d100e93d29400906955688" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79b47ad53113df84",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f18bf226c5984455c294bcb8a15f8013" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11b2f7a0c373b9d",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+      "time" : {
+        "start" : 1619387201692,
+        "stop" : 1619387217447,
+        "duration" : 15755
+      }
+    } ]
+  },
+  "28b2d5d538fc421f0abe720f908d7db8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aca89304d09f66ed",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      }
+    } ]
+  }
+}

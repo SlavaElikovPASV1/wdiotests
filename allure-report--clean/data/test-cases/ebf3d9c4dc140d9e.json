@@ -1,0 +1,46 @@
+{
+  "uid" : "ebf3d9c4dc140d9e",
+  "name" : "fails if invalid data provided",
+  "fullName" : "Auth.fails if invalid data provided",
+  "historyId" : "b7ee419226d100e93d29400906955688",
+  "time" : {
+    "start" : 1619385462449,
+    "stop" : 1619385462449,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Auth"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails if invalid data provided"
+  }, {
+    "name" : "package",
+    "value" : "Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebf3d9c4dc140d9e.json",
+  "parameterValues" : [ ]
+}

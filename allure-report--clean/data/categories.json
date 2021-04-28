@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+      "children" : [ {
+        "name" : "\"before all\" hook for Navigation",
+        "uid" : "11b2f7a0c373b9d",
+        "parentUid" : "a62edf66e56c2322ddb02140a535fb13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619387201692,
+          "stop" : 1619387217447,
+          "duration" : 15755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome-90.0.4430.85" ]
+      } ],
+      "uid" : "a62edf66e56c2322ddb02140a535fb13"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

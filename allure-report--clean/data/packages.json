@@ -1,0 +1,78 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Auth",
+    "children" : [ {
+      "name" : "login input is required",
+      "uid" : "aca89304d09f66ed",
+      "parentUid" : "5a4c7f42b682e5a32db9b5322bce82ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "user logs in with valid data",
+      "uid" : "25b183304e9a47e",
+      "parentUid" : "5a4c7f42b682e5a32db9b5322bce82ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "fails if invalid data provided",
+      "uid" : "79b47ad53113df84",
+      "parentUid" : "5a4c7f42b682e5a32db9b5322bce82ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "submit button is disabled if login and password are absent",
+      "uid" : "5d0cbc03419aa4a6",
+      "parentUid" : "5a4c7f42b682e5a32db9b5322bce82ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1619387195992,
+        "stop" : 1619387195992,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5a4c7f42b682e5a32db9b5322bce82ad"
+  }, {
+    "name" : "Navigation",
+    "children" : [ {
+      "name" : "\"before all\" hook for Navigation",
+      "uid" : "11b2f7a0c373b9d",
+      "parentUid" : "d48bb55e9f51acce39e86b8256ae8726",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619387201692,
+        "stop" : 1619387217447,
+        "duration" : 15755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.85" ]
+    } ],
+    "uid" : "d48bb55e9f51acce39e86b8256ae8726"
+  } ]
+}
