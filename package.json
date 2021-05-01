@@ -10,7 +10,6 @@
     "report:serve": "npx allure serve allure-results",
     "report:generate": "npx allure generate allure-results -o allure-report--clean",
     "report:open": "npx allure open allure-report"
-
   },
   "keywords": [],
   "author": "",
@@ -30,6 +29,7 @@
     "@wdio/mocha-framework": "^7.1.1",
     "@wdio/spec-reporter": "^7.1.1",
     "@wdio/sync": "^7.1.1",
+    "dotenv": "^8.2.0",
     "geckodriver": "^1.22.2",
     "wdio-geckodriver-service": "^1.1.2"
   }

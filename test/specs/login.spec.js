@@ -14,8 +14,8 @@ describe('Auth', () => {
 
     it('user logs in with valid data', () => {
         //LoginPage.open();
-        LoginPage.setLogin('slava.elikov@gmail.com');
-        LoginPage.setPassword('qwerty1');
+        LoginPage.setLogin('slava.elikov@gmail.com');//process.env.LOGIN
+        LoginPage.setPassword('qwerty1');//process.env.PASSWORD
         LoginPage.clickSubmitButton();
         ProfilePage.isOpen();
     });

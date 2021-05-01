@@ -11,9 +11,9 @@ exports.config = {
         maxInstances: 1,
         browserName: 'chrome',
         acceptInsecureCerts: true,
-        'goog:chromeOptions': {
-            args: ['--window-size=1280,720']
-        },
+           'goog:chromeOptions': {
+               args: ['--window-size=1280,720', '--headless', '--disable-gpu']
+           },
      },
 
     ],
