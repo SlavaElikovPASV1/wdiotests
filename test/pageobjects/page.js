@@ -3,10 +3,10 @@ export default class Page {
         return browser.url(path);
     }
 
-    clearInput(element) {
-        const value = element.getValue();
-        for(let i = 0; i < value.length; i++){
-            element.keys(['Backspace']);
+    async clearInput(element) {
+        const value = await element.getValue();
+        for (let i = 0; i < value.length; i++){
+           await  element.keys(['Backspace']);
         }
     }
 }

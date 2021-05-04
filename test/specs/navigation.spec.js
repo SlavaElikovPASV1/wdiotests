@@ -11,7 +11,7 @@ describe('Navigation', () => {
         MainPage.open();
     })
 
-    it('courses page opens', () => {
+    xit('courses page opens', () => {
 
        // browser.pause(3000);
         MainPage.goToCourses();
