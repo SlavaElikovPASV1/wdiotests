@@ -1,7 +1,7 @@
 import LoginPage from '../pageobjects/login.page';
 import ProfilePage from '../pageobjects/portal/profile.portal.page';
 
-describe('Auth', () => {
+xdescribe('Auth', () => {
 
     beforeEach(() => {
         LoginPage.open();
@@ -38,6 +38,8 @@ describe('Auth', () => {
         await LoginPage.loginRequiredError();
     });
 
-});
+})
+
+
 
 

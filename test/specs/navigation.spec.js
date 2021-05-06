@@ -1,7 +1,7 @@
 import MainPage from '../pageobjects/portal/main.portal.page';
 import CoursesPage from '../pageobjects/portal/courses.portal.page';
 
-describe('Navigation', () => {
+xdescribe('Navigation', () => {
     before(() => {
         browser.login('mevibe8861@leonvero.com', '690844');
     });

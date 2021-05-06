@@ -30,6 +30,7 @@
     "@wdio/spec-reporter": "^7.1.1",
     "dotenv": "^8.2.0",
     "geckodriver": "^1.22.2",
+    "prettier": "^2.2.1",
     "wdio-geckodriver-service": "^1.1.2"
   }
 }
