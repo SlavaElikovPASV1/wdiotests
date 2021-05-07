@@ -51,10 +51,8 @@ class Register extends Page {
     }
     
     get loginLink() {
-        return $('#user_login > div:nth-child(9) > div > div > div > p > a')
+        return $('#user_login > div:nth-child(9) > div > div > div > p > a');
     }
-    
-    
     
     register(firstName, lastname, phone, email, password) {
         this.inputFirstName.setValue(firstName);
@@ -97,10 +95,10 @@ class Register extends Page {
         return (await this.header).isDisplayed()
     }
     
-    // async clickOnLoginLink() {
-    //     return (await this.loginLink).click()
-    // }
-    // next page should crete
+    async clickOnLoginLink() {
+        return (await this.loginLink).click()
+    }
+  
     
     
 }

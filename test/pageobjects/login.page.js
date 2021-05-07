@@ -31,7 +31,7 @@ class LoginPage extends Page {
         return super.open('/user/login');
     }
 
-    login(email, password) {
+     login(email, password) {
         this.inputUsername.setValue(email);
         this.inputPassword.setValue(password);
     }

@@ -1,4 +1,6 @@
 import PortalPage from "./portal.page";
+import LoginPage from "../login.page";
+import ProfilePage from "../profile.page"
 
 class CoursesPage extends PortalPage {
 
@@ -6,6 +8,13 @@ class CoursesPage extends PortalPage {
 
     open() {
         return super.open('/course');
+    }
+    
+    openAuthUser() {
+         LoginPage.open();
+         LoginPage.login('slava.elikov@gmail.com', 'qwerty1');
+         LoginPage.clickSubmitButton();
+         ProfilePage.goToCourses();
     }
 
     isOpen() {
